@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- # Activity 1 - Student Bio Page
+
+* On your own, create a simple bio page for yourself using the following HTML elements...
+
+  * A header that will store your name inside of it
+  * An image that will act as a stand-in for your picture with an `alt` attribute which gives a very basic description of the image
+  * Two paragraphs that will have text describing who you are
+  * An unordered list of links that connect to your social media pages
+  * A table that will contain three columns and some data on your favorite movies, songs, books, or activities
+
+### Hints
+
+* Dummy images can be found at [lorempixel.com](http://lorempixel.com/) and dummy text can be found at [lipsum.com](http://www.lipsum.com/). Focus on getting the entire page working before diving into more specific text and images.
+
+### Bonuses
+
+* Look into how one might go about linking one custom-made HTML page to another. Once you have found out how, try creating a link from your bio page you have just created to one of the pages you created last class. -->
+<html>
+    <head id="he">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="webresources/css/viterbi.css"/>
+        <link rel="stylesheet" type="text/css" href="webresources/css/transactions12.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <!-- Logos -->
+        <div>
+            <img src="https://vsoeapp1.vsoe.usc.edu/images/USC-Bar-cardinal.gif">
+        </div>
+  
+       
+        
+
+        <!-- Headings -->
+        <div>
+            <div title="Picture Heading Division" class="col-3">
+                <h3>Picture Division</h3>
+            </div>
+
+            <div title="Description Heading Division" class="col-6">
+                <h3>Description Division</h3>
+            </div>
+
+            <div title="Social Media Heading Division" class="col-3"> 
+                <h3>Social Media Division</h3>
+            </div>
+        </div>
+
+        <!-- Data -->
+        <div>
+            <div title="Picture Division" class="col-3" align="center">
+                <p>
+                    <img alt="Andrew Viterbi" src="data:image/jpeg;base64,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"> <br/>
+                    Dr. Andrew Viterbi
+                </p>
+            </div>
+
+            <div title="Description Division" class="col-6">
+                <p>
+                    Andrew James Viterbi (born Andrea Giacomo Viterbi; March 9, 1935) is an American electrical engineer 
+                    and businessman who co-founded Qualcomm Inc. and invented the Viterbi algorithm. He is currently 
+                    Presidential Chair Professor of Electrical Engineering at the 
+                    University of Southern California's Viterbi School of Engineering, 
+                    which was named in his honor in 2004 in recognition of his $52 million gift.
+                </p>
+                    Viterbi was later a professor of electrical engineering at UCLA and UCSD. In 1967 he proposed the 
+                    Viterbi algorithm to decode convolutionally encoded data. It is still used widely in cellular phones 
+                    for error correcting codes, as well as for speech recognition, DNA analysis, and many other 
+                    applications of Hidden Markov models. On advice of a lawyer, Viterbi did not patent the algorithm.
+                    Viterbi also helped to develop the CDMA standard for cell phone networks.
+                <p>
+
+                </p>
+            </div>
+            <br/>
+
+            <div title="Social Media Division" class="col-3">
+                <ul>
+                    <li>
+                        <a href="https://viterbischool.usc.edu/" >USC Viterbi School of Engineering</a>
+                    </li>
+                    <li>
+                        <a href="http://www.usc.edu/" >University of Southern California</a>
+                    </li>
+                </ul>
+                <h3>Education</h3>
+                <table>
+                    <tr><td>MIT</td><td>BS and MS in Electircal Engineering</td></tr> 
+                    <tr><td>USC</td><td>PhD in Digital Communications</td></tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>
